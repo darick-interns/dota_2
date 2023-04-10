@@ -38,7 +38,7 @@ function addToStashClicked(e) {
     updateGoldTotal()
 }
 
-// Sell Stash Item/s
+// Sell Stash Item/s Button
 function sellStashItem(e) {
     var buttonClicked = event.target
     buttonClicked.parentElement.parentElement.remove()
