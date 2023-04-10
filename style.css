@@ -1,0 +1,222 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    min-height: 100%;
+}
+
+body {
+    background-color: #171a21;
+}
+
+.main-header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+    background-color: black;
+    background-blend-mode: multiply;
+    background-size: cover;
+    padding-top: 20px
+}
+
+.brand-name {
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 25px;
+}
+
+.content-section {
+    margin: 16px;
+}
+
+.container {
+    max-width: 1350px;
+    margin: 0 auto;
+    padding: 0 24px;
+}
+.section-header {
+    font-family: "TNR";
+    font-weight: normal;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+}
+
+.btn {
+    text-align: center;
+    vertical-align: middle;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
+.btn-play {
+    display: block;
+    margin: 0 auto;
+    color: #2D9CDB;
+    font-size: 64px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    padding: 0;
+    text-align: center;
+}
+
+.btn-primary {
+    color: white;
+    background-color: rgba(178, 41, 34, .9);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: rgba(178, 41, 34, .7);
+}
+
+.shop-item {
+    margin: 30px;
+}
+
+.shop-item-title {
+    font-family: "TNR";
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-weight: bold;
+    font-size: 24px;
+    color: #66c0f4;
+    margin-bottom: 15px;
+}
+
+.shop-item-image {
+    height: 250px;
+}
+
+.shop-item-details {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.shop-item-price {
+    font-size: 20px;
+    flex-grow: 1;
+    color: goldenrod;
+}
+
+.fa-coins {
+    color: goldenrod;
+}
+
+.shop-items {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.stash-header {
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+.stash-column {
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid black;
+    margin-right: 24px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.stash-row {
+    display: flex;
+}
+
+.stash-item {
+    width: 45%;
+}
+
+.stash-price {
+    width: 20%;
+    font-size: 20px;
+    color: goldenrod;
+}
+
+.stash-quantity {
+    width: 35%;
+}
+
+.stash-item-title {
+    font-family: "TNR";
+    color: #66c0f4;
+    margin-left: 8px;
+    font-size: 20px;
+}
+
+.stash-item-image {
+    width: 75px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.btn-sell {
+    color: white;
+    background-color: #2a475e;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.btn-sell:hover {
+    background-color: #1b2838;
+}
+
+.stash-quantity-input {
+    height: 34px;
+    width: 50px;
+    border-radius: 5px;
+    border: 3px solid #2a475e;
+    background-color: #eee;
+    color: #1b2838;
+    padding: 0;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 25px;
+}
+
+.stash-row:last-child {
+    border-bottom: 1px solid black;
+}
+
+.stash-row:last-child .stash-column {
+    border: none;
+}
+
+.stash-total {
+    text-align: end;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.stash-total-title {
+    font-weight: normal;
+    font-size: 24px;
+    color: goldenrod;
+    margin-right: 20px;
+}
+
+.stash-total-price {
+    color: goldenrod;
+    font-size: 22px;
+}
+
+.btn-purchase {
+    display: block;
+    margin: 40px auto 80px auto;
+    font-size: 28px;
+}
