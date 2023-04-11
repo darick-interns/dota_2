@@ -64,7 +64,7 @@ function grabAllClicked() {
     updateGoldTotal()
 }
 
-// Add Item/s to Stash
+// Add Item/s to Stash Button
 function addItemToStash(title, price, imageSrc) {
     var stashRow = document.createElement("div")
     stashRow.classList.add("stash-row")
@@ -104,7 +104,7 @@ function updateGoldTotal() {
         var price = parseFloat(priceElement.innerText.replace())
         var quantity = quantityElement.value
         total = total - (price * quantity)
-        console.log(price, quantity, total)
+        console.log(quantity, total)
         if (total < 0) {
             alert("NOT ENOUGH GOLD")
             return
